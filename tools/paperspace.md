@@ -270,6 +270,10 @@ Host paperspace
 ```bash
 ssh paperspace
 ```
+
+Note: if you encounter the problem `Bad owner or permissions on /home/<your_username>/.ssh/config`, then this should solve the problem:
+```$ chmod 0600 config```
+
 >my example
 ```bash
 Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-104-generic x86_64)
